@@ -1,0 +1,12 @@
+{
+	"extends": ["react-app", "prettier"],
+	"parser": "@typescript-eslint/parser",
+	"ignorePatterns": ["node_modules/", "client/node_modules/"],
+	"rules": {
+		"jsx-quotes": [1, "prefer-double"],
+		"no-console": 2,
+		"no-debugger": 2,
+		"jsx-a11y/anchor-is-valid": 0,
+		"jsx-a11y/accessible-emoji": 0
+	}
+}
